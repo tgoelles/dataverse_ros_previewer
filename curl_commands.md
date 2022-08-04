@@ -8,7 +8,7 @@ You should be able to cut/paste any/all of the commands below to run on your Dat
 ```bash
 curl -X POST -H 'Content-type: application/json' http://localhost:8080/api/admin/externalTools -d \
 '{
-  "displayName":"ROS bagfile",
+  "displayName":"Foxglove Studio Viewer",
   "description":"Foxglove Studio ROS bag viewer",
   "toolName":"ROSPreview",
   "scope":"file",
