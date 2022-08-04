@@ -55,3 +55,9 @@ https://studio.foxglove.dev/?ds=ros1-remote-bagfile&ds.url=https%3A%2F%2Fgithub.
 
 CORS needs to be setup for foxglove or webviz. Should be there in Dataverse
 
+
+### Developer notes
+
+* the curl command above needs to run only once
+* on push you need to wait for the github action to finish building the html side to see the effects
+* it depends on the js, css files from https://qualitativedatarepository.github.io/
