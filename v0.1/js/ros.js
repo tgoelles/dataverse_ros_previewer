@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    startPreview(false);
+    startPreview(true);
 });
 
 function writeContent(fileUrl, file, title, authors) {
