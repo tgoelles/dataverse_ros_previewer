@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-    startPreview(true);
+    startPreview(false);
 });
 
 function translateBaseHtmlPage() {
