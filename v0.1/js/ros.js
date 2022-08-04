@@ -3,7 +3,13 @@
 //     startPreview(false);
 // });
 
+const preview = document.getElementById('preview')
+
 $('.preview').append("test")
+
+preview.insertAdjacentHTML(
+    'beforeend',
+    `<span style="background-color: lime">, Avocado</span>`);
 
 function writeContent(fileUrl, file, title, authors) {
     //addStandardPreviewHeader(file, title, authors);
