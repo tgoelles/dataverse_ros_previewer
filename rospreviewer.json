@@ -1,0 +1,18 @@
+{
+    "displayName": "ROS previewer",
+    "description": "Foxglove Studio ROS bag viewer",
+    "scope": "file",
+    "types": [
+        "explore",
+        "preview"
+    ],
+    "toolUrl": "https://studio.foxglove.dev/",
+    "toolParameters": {
+        "queryParameters": [
+            {
+                "ds=ros1-remote-bagfile&ds.url": "{fileID}"
+            }
+        ]
+    },
+    "contentType": "application/octet-stream"
+}
