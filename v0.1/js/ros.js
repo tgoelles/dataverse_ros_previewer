@@ -3,6 +3,7 @@
 //     startPreview(false);
 // });
 
+$('.preview').append("test")
 
 function writeContent(fileUrl, file, title, authors) {
     //addStandardPreviewHeader(file, title, authors);
