@@ -24,6 +24,6 @@ curl -X POST -H 'Content-type: application/json' http://localhost:8080/api/admin
         {"locale":"{localeCode}"}
       ]
     },
-  "contentType":application/octet-stream"
+  "contentType":"application/octet-stream"
 }'
 ```
