@@ -3,11 +3,16 @@
 
 list installed version
 
+```bash
+curl http://localhost:8080/api/admin/externalTools
+```
+
 delete old version
 
+```bash
 export TOOL_ID=1
 curl http://localhost:8080/api/admin/externalTools/$TOOL_ID
-
+```
 ## curl command
 
 
