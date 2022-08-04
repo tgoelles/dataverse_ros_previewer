@@ -1,0 +1,347 @@
+{
+    "status": "OK",
+    "data": [
+        {
+            "id": 1,
+            "displayName": "Read Text",
+            "toolName": "textPreviewer",
+            "description": "Read the text file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/TextPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "text/plain"
+        },
+        {
+            "id": 2,
+            "displayName": "View Html",
+            "toolName": "htmlPreviewer",
+            "description": "View the html file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/HtmlPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "text/html"
+        },
+        {
+            "id": 3,
+            "displayName": "Play Audio",
+            "toolName": "audioPreviewer",
+            "description": "Listen to an audio file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/AudioPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "audio/mp3"
+        },
+        {
+            "id": 4,
+            "displayName": "Play Audio",
+            "toolName": "audioPreviewer",
+            "description": "Listen to an audio file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/AudioPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "audio/mpeg"
+        },
+        {
+            "id": 5,
+            "displayName": "Play Audio",
+            "toolName": "audioPreviewer",
+            "description": "Listen to an audio file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/AudioPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "audio/wav"
+        },
+        {
+            "id": 6,
+            "displayName": "Play Audio",
+            "toolName": "audioPreviewer",
+            "description": "Listen to an audio file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/AudioPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "audio/ogg"
+        },
+        {
+            "id": 7,
+            "displayName": "Play Audio",
+            "toolName": "audioPreviewer",
+            "description": "Listen to an audio file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/AudioPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "audio/x-m4a"
+        },
+        {
+            "id": 8,
+            "displayName": "View Image",
+            "toolName": "imagePreviewer",
+            "description": "Preview an image file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/ImagePreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "image/gif"
+        },
+        {
+            "id": 9,
+            "displayName": "View Image",
+            "toolName": "imagePreviewer",
+            "description": "Preview an image file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/ImagePreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "image/jpeg"
+        },
+        {
+            "id": 10,
+            "displayName": "View Image",
+            "toolName": "imagePreviewer",
+            "description": "Preview an image file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/ImagePreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "image/png"
+        },
+        {
+            "id": 11,
+            "displayName": "Read Document",
+            "toolName": "pdfPreviewer",
+            "description": "Read a pdf document.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/PDFPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/pdf"
+        },
+        {
+            "id": 12,
+            "displayName": "Play Video",
+            "toolName": "videoPreviewer",
+            "description": "Watch a video file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/VideoPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "video/mp4"
+        },
+        {
+            "id": 13,
+            "displayName": "Play Video",
+            "toolName": "videoPreviewer",
+            "description": "Watch a video file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/VideoPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "video/ogg"
+        },
+        {
+            "id": 14,
+            "displayName": "Play Video",
+            "toolName": "videoPreviewer",
+            "description": "Watch a video file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/VideoPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "video/quicktime"
+        },
+        {
+            "id": 15,
+            "displayName": "View Data",
+            "toolName": "spreadsheetPreviewer",
+            "description": "View the spreadsheet data.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/SpreadsheetPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "text/comma-separated-values"
+        },
+        {
+            "id": 16,
+            "displayName": "View Data",
+            "toolName": "spreadsheetPreviewer",
+            "description": "View the spreadsheet data.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/SpreadsheetPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "text/tab-separated-values"
+        },
+        {
+            "id": 17,
+            "displayName": "View Data",
+            "toolName": "spreadsheetPreviewer",
+            "description": "View the spreadsheet data.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/SpreadsheetPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "text/csv"
+        },
+        {
+            "id": 18,
+            "displayName": "View Data",
+            "toolName": "spreadsheetPreviewer",
+            "description": "View the spreadsheet data.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/SpreadsheetPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "text/tsv"
+        },
+        {
+            "id": 19,
+            "displayName": "View Stata File",
+            "toolName": "stataPreviewer",
+            "description": "View the Stata file as text.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/TextPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/x-stata-syntax"
+        },
+        {
+            "id": 20,
+            "displayName": "View R file",
+            "toolName": "rPreviewer",
+            "description": "View the R file as text.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/TextPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "type/x-r-syntax"
+        },
+        {
+            "id": 21,
+            "displayName": "View Annotations",
+            "toolName": "annotationPreviewer",
+            "description": "View the annotation entries in a file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/HypothesisPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/x-json-hypothesis"
+        },
+        {
+            "id": 22,
+            "displayName": "View Map",
+            "toolName": "mapPreviewer",
+            "description": "View a map of the file.",
+            "types": [
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://gdcc.github.io/dataverse-previewers/previewers/v1.3/MapPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/geo+json"
+        },
+        {
+            "id": 23,
+            "displayName": "ROS bagfile",
+            "toolName": "ROSPreview",
+            "description": "Foxglove Studio ROS bag viewer",
+            "types": [
+                "explore",
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://tgoelles.github.io/dataverse_ros_previewer/v0.1/ROSPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/octet-stream"
+        },
+        {
+            "id": 24,
+            "displayName": "ROS bagfile",
+            "toolName": "ROSPreview",
+            "description": "Foxglove Studio ROS bag viewer",
+            "types": [
+                "explore",
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://tgoelles.github.io/dataverse_ros_previewer/v0.1/ROSPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/octet-stream"
+        },
+        {
+            "id": 25,
+            "displayName": "ROS bagfile",
+            "toolName": "ROSPreview",
+            "description": "Foxglove Studio ROS bag viewer",
+            "types": [
+                "explore",
+                "preview"
+            ],
+            "scope": "file",
+            "toolUrl": "https://tgoelles.github.io/dataverse_ros_previewer/v0.1/ROSPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/octet-stream"
+        },
+        {
+            "id": 26,
+            "displayName": "ROS bagfile",
+            "toolName": "ROSPreview",
+            "description": "Foxglove Studio ROS bag viewer",
+            "types": [
+                "preview",
+                "explore"
+            ],
+            "scope": "file",
+            "toolUrl": "https://tgoelles.github.io/dataverse_ros_previewer/v0.1/ROSPreview.html",
+            "toolParameters": "{\"queryParameters\":[{\"fileid\":\"{fileId}\"},{\"siteUrl\":\"{siteUrl}\"},{\"key\":\"{apiToken}\"},{\"datasetid\":\"{datasetId}\"},{\"datasetversion\":\"{datasetVersion}\"},{\"locale\":\"{localeCode}\"}]}",
+            "contentType": "application/octet-stream"
+        }
+    ]
+}
