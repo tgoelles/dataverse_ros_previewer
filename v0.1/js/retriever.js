@@ -23,14 +23,14 @@ function startPreview(retrieveFile) {
     if (locale == null) {
         locale = 'en';
     }
-    var i18n = $.i18n();
-    i18n.locale = locale;
-    i18n.load('i18n/' + i18n.locale + '.json', i18n.locale).done(
-        function () {
-            //Call previewer-specific translation code
-            translateBaseHtmlPage();
-        }
-    );
+    // var i18n = $.i18n();
+    // i18n.locale = locale;
+    // i18n.load('i18n/' + i18n.locale + '.json', i18n.locale).done(
+    //     function () {
+    //         //Call previewer-specific translation code
+    //         translateBaseHtmlPage();
+    //     }
+    // );
 
     if (apiKey != null) {
         fileUrl = fileUrl + "&key=" + apiKey;
@@ -134,7 +134,7 @@ function addStandardPreviewHeader(file, title, authors) {
 
 
     //Footer
-    var footer = $.i18n("footer");
+    //var footer = $.i18n("footer");
     $('body').append($('<div/>').html(footer).attr('id', 'footer'));
 
     if (previewMode !== 'true') {
@@ -142,14 +142,14 @@ function addStandardPreviewHeader(file, title, authors) {
         options = { "stripIgnoreTag": true, "stripIgnoreTagBody": ['script', 'head'] };  // Custom rules
         //Translated text used in the preview header
 
-        var filenameText = $.i18n("filenameText");
-        var inText = $.i18n("inText");
-        var byText = $.i18n("byText");
-        var uploadedOnText = $.i18n("uploadedOnText");
-        var downloadFileText = $.i18n("downloadFileText");
-        var closePreviewText = $.i18n("closePreviewText");
-        var versionText = $.i18n("versionText");
-        var descriptionText = $.i18n("descriptionText");
+        // var filenameText = $.i18n("filenameText");
+        // var inText = $.i18n("inText");
+        // var byText = $.i18n("byText");
+        // var uploadedOnText = $.i18n("uploadedOnText");
+        // var downloadFileText = $.i18n("downloadFileText");
+        // var closePreviewText = $.i18n("closePreviewText");
+        // var versionText = $.i18n("versionText");
+        // var descriptionText = $.i18n("descriptionText");
 
         filePageUrl = queryParams.get("siteUrl") + "/file.xhtml?";
         if (file.persistentId.length == 0) {
@@ -196,7 +196,7 @@ function reportFailure(msg, statusCode) {
     var preview = $(".preview");
     preview.addClass("alert alert-danger");
 
-    var errorText = $.i18n("errorText");
+    //var errorText = $.i18n("errorText");
 
     preview
         .text(msg
